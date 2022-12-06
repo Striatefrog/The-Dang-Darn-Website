@@ -1,0 +1,27 @@
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(60, 60, 60);
+        border-radius: 5px;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        /* Box Model */
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: rgb(25, 25, 25);
+    }
+    div.sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
